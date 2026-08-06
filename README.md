@@ -12,10 +12,11 @@ Por eso, **este repositorio no publica datos personales ni información sensible
 
 ```
 python-uba-xxii/
-├── notebooks/          → una notebook por clase (16 en total), con objetivo, contenido y ejercicio principal
-├── ejercicios/          → enunciados de práctica adicional
-├── soluciones/          → resoluciones de los ejercicios
-└── material-adicional/  → guías de referencia rápida y apuntes complementarios
+├── notebooks/
+│ ├── nivel-1/ → las 16 notebooks del curso introductorio (una por clase)
+│ └── nivel-2/ → notebooks del curso avanzado (a completar)
+├── soluciones/ → resoluciones de los ejercicios
+└── material-adicional/ → guías de referencia rápida, apuntes y la plantilla de asistencia
 ```
 
 Cada notebook de `notebooks/` sigue la misma estructura:
