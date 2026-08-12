@@ -1,8 +1,11 @@
 # Seguimiento semanal
 
-Bitácora de las clases dictadas en la Unidad, a modo de diario de a bordo del curso: qué se dio, qué errores surgieron, qué funcionó. Sirve para llevar un registro real del avance del cuatrimestre.
+Bitácora de las clases dictadas en la Unidad, separada por nivel:
 
-**No incluye datos identificables** de los alumnos: como mucho, un nombre de pila común (ej. "Kevin", "Marcos"), nunca apellido ni otro dato que permita identificar a una persona real.
+- `nivel-1/` → seguimiento del curso introductorio.
+- `nivel-2/` → seguimiento del curso avanzado.
+
+No incluye datos identificables de los alumnos: como mucho, un nombre de pila común, nunca apellido ni otro dato que permita identificar a una persona real.
 
 ## Template para cada entrada
 
@@ -23,5 +26,3 @@ Bitácora de las clases dictadas en la Unidad, a modo de diario de a bordo del c
 ## Observaciones
 Alguna anécdota pedagógica, qué funcionó, qué ajustar para la próxima (opcional).
 ```
-
-Cada semana se agrega un archivo nuevo: `clase-02-....md`, `clase-03-....md`, etc.
