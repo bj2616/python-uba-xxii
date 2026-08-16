@@ -1,0 +1,17 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#hoy empezamos a graficar. usamos la libreria matplotlib
+
+import matplotlib.pyplot as plt
+
+dias = [1, 2, 3, 4, 5]
+temperaturas = [18.5, 20.1, 19.3, 22.0, 17.8]
+
+plt.scatter(dias, temperaturas)
+plt.xlabel("dia")
+plt.ylabel("temperatura")
+plt.title("temperatura por dia")
+plt.show()
+
+#obs: el grafico de puntos sirve para ver como varia un dato a lo largo del tiempo

@@ -1,0 +1,25 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#el while repite algo mientras se cumpla una condicion
+contador = 0
+
+while contador < 5:
+    print("vuelta numero", contador)
+    contador = contador + 1
+
+vuelta numero 0
+vuelta numero 1
+vuelta numero 2
+vuelta numero 3
+vuelta numero 4
+
+#obs: si nos olvidamos de sumarle 1 al contador, el while nunca termina (bucle infinito)
+
+#otro ejemplo: repetir hasta que ingresen la palabra correcta
+clave = ""
+
+while clave != "python":
+    clave = input("ingrese la clave: ")
+
+print("clave correcta")

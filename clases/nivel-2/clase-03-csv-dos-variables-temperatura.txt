@@ -1,0 +1,34 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#ahora el archivo tiene 2 columnas: temperatura en un lugar y en otro
+#temperaturas_2lugares.csv
+
+import csv
+
+archivo = open("temperaturas_2lugares.csv")
+lector = csv.reader(archivo)
+next(lector)
+
+lugar_a = []
+lugar_b = []
+
+for fila in lector:
+    lugar_a.append(float(fila[0]))
+    lugar_b.append(float(fila[1]))
+
+archivo.close()
+
+promedio_a = sum(lugar_a) / len(lugar_a)
+promedio_b = sum(lugar_b) / len(lugar_b)
+
+print("promedio lugar A:", promedio_a)
+print("promedio lugar B:", promedio_b)
+promedio lugar A: 19.54
+promedio lugar B: 22.1
+
+#obs: podemos comparar los dos promedios para ver donde hace mas calor
+if promedio_a > promedio_b:
+    print("el lugar A es mas caluroso en promedio")
+else:
+    print("el lugar B es mas caluroso en promedio")

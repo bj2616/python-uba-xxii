@@ -1,0 +1,24 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#print sirve para mostrar un mensaje en pantalla
+print("hola a todos")
+hola a todos
+
+#tambien podemos mostrar variables
+edad = 30
+print("tengo", edad, "años")
+tengo 30 años
+
+#ahora vamos a usar una funcion que ya viene hecha en Python
+#se llama random, y sirve para generar numeros al azar
+import random
+
+random.randint(1, 6)
+4
+
+#cada vez que la ejecutamos, puede salir un numero distinto
+random.randint(1, 6)
+2
+
+#obs: randint(1,6) elige un numero entero al azar entre el 1 y el 6, como un dado

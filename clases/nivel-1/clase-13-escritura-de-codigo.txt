@@ -1,0 +1,21 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#hoy terminamos el juego de penales completo
+import random
+
+goles = 0
+tiros = 5
+
+for tiro in range(1, tiros + 1):
+    print("tiro numero", tiro)
+    arquero = random.randint(1, 3)
+    jugador = int(input("elegi donde patear (1=izquierda, 2=centro, 3=derecha): "))
+
+    if jugador != arquero:
+        print("GOL!")
+        goles = goles + 1
+    else:
+        print("ATAJADA")
+
+print("terminaste con", goles, "goles de", tiros, "tiros")

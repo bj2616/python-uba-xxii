@@ -1,0 +1,23 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#mismo ejercicio, con datos de ingresos mensuales
+#ingresos.csv
+
+import csv
+
+archivo = open("ingresos.csv")
+lector = csv.reader(archivo)
+next(lector)
+
+ingresos = []
+for fila in lector:
+    ingresos.append(float(fila[0]))
+
+archivo.close()
+
+total = sum(ingresos)
+promedio = total / len(ingresos)
+
+print("ingreso total:", total)
+print("ingreso promedio:", promedio)

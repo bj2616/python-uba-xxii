@@ -1,0 +1,27 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#hoy comparamos las precipitaciones de un año niño y un año niña
+#precipitaciones.csv tiene 2 columnas: año_nino, año_nina
+
+import csv
+import statistics
+
+archivo = open("precipitaciones.csv")
+lector = csv.reader(archivo)
+next(lector)
+
+nino = []
+nina = []
+
+for fila in lector:
+    nino.append(float(fila[0]))
+    nina.append(float(fila[1]))
+
+archivo.close()
+
+print("promedio año niño:", statistics.mean(nino))
+print("promedio año niña:", statistics.mean(nina))
+
+#obs: durante El Niño suele llover mas en nuestra region
+#durante La Niña, generalmente llueve menos

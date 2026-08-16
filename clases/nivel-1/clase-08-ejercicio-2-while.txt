@@ -1,0 +1,15 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#ejercicio: simular la compra de figuritas hasta completar el album
+import random
+
+album = [False, False, False, False, False, False]  # 6 figuritas, todas faltan
+paquetes_comprados = 0
+
+while False in album:
+    figurita = random.randint(0, 5)
+    album[figurita] = True
+    paquetes_comprados = paquetes_comprados + 1
+
+print("se completo el album en", paquetes_comprados, "paquetes")

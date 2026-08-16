@@ -1,0 +1,14 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#ejercicio: vamos a usar if para tomar una decision con datos reales del pabellon
+
+modulo = input("ingrese el numero de modulo: ")
+pabellon = input("ingrese el numero de pabellon: ")
+dia = input("ingrese el dia de la semana: ")
+
+#supongamos que hay mas probabilidad de requisa los dias lunes
+if dia == "lunes":
+    print("hoy es mas probable que haya requisa")
+else:
+    print("hoy es menos probable que haya requisa")

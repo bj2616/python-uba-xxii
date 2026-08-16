@@ -1,0 +1,26 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#hoy vamos a abrir un archivo con datos reales
+#el archivo se llama temperaturas.csv y tiene una columna con la temperatura de cada dia
+
+import csv
+
+archivo = open("temperaturas.csv")
+lector = csv.reader(archivo)
+next(lector)  # saltamos la primera fila, que tiene el nombre de la columna
+
+temperaturas = []
+
+for fila in lector:
+    temperaturas.append(float(fila[0]))
+
+archivo.close()
+
+print(temperaturas)
+[18.5, 20.1, 19.3, 22.0, 17.8]
+
+#ahora calculamos el promedio
+promedio = sum(temperaturas) / len(temperaturas)
+print("temperatura promedio:", promedio)
+temperatura promedio: 19.54

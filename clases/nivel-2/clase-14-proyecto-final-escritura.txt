@@ -1,0 +1,4 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#hoy escribimos el codigo del proyecto final

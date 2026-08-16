@@ -1,0 +1,17 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#hoy vemos un tercer tipo de grafico: el boxplot (diagrama de caja)
+
+import matplotlib.pyplot as plt
+
+nino = [120, 135, 140, 110, 150]
+nina = [60, 55, 70, 65, 58]
+
+plt.boxplot([nino, nina], labels=["año niño", "año niña"])
+plt.ylabel("precipitacion (mm)")
+plt.title("comparacion de precipitaciones")
+plt.show()
+
+#obs: el boxplot muestra el rango donde se concentran la mayoria de los datos
+#tambien permite ver valores muy distintos al resto (outliers)

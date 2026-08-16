@@ -1,0 +1,25 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#hoy analizamos datos de precipitacion en la cuenca Matanza-Riachuelo
+#y vemos si superan un umbral de riesgo de inundacion
+
+import csv
+
+archivo = open("precipitacion_cuenca.csv")
+lector = csv.reader(archivo)
+next(lector)
+
+dias_riesgo = 0
+umbral = 50  # milimetros, valor de ejemplo
+
+for fila in lector:
+    mm = float(fila[0])
+    if mm > umbral:
+        dias_riesgo = dias_riesgo + 1
+
+archivo.close()
+
+print("cantidad de dias con riesgo de inundacion:", dias_riesgo)
+
+#obs: el umbral real lo vamos a definir con los datos del proyecto Anticipando la Crecida

@@ -1,0 +1,17 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#ahora vamos a hacer un grafico de barras
+
+import matplotlib.pyplot as plt
+
+lugares = ["lugar A", "lugar B"]
+promedios = [19.54, 22.1]
+
+plt.bar(lugares, promedios)
+plt.xlabel("lugar")
+plt.ylabel("temperatura promedio")
+plt.title("comparacion de temperaturas")
+plt.show()
+
+#obs: el grafico de barras sirve para comparar categorias entre si

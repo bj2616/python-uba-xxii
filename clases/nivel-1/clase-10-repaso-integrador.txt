@@ -1,0 +1,21 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#hoy repasamos todo lo que vimos hasta ahora: variables, if, while, for
+
+numero = int(input("ingrese un numero: "))
+
+if numero % 2 == 0:
+    print("es par")
+else:
+    print("es impar")
+
+#ahora contamos cuantos numeros pares hay en una lista
+lista = [3, 8, 15, 22, 7, 10]
+pares = 0
+
+for n in lista:
+    if n % 2 == 0:
+        pares = pares + 1
+
+print("cantidad de numeros pares:", pares)

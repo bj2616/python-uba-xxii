@@ -1,0 +1,21 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#bienvenidos al curso de Python
+#antes de programar, vamos a hacer una cuenta simple
+
+a = 10
+b = 20
+
+a + b
+30
+
+#tambien podemos restar, multiplicar y dividir
+a - b
+-10
+
+a * b
+200
+
+a / b
+0.5

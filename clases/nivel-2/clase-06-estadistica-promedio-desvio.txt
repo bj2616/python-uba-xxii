@@ -1,0 +1,20 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#hoy vamos a hablar de dos datos estadisticos: el promedio y el desvio
+
+import statistics
+
+datos = [18.5, 20.1, 19.3, 22.0, 17.8]
+
+promedio = statistics.mean(datos)
+print("promedio:", promedio)
+promedio: 19.54
+
+#el desvio nos dice que tan dispersos estan los datos respecto al promedio
+desvio = statistics.stdev(datos)
+print("desvio:", desvio)
+desvio: 1.63
+
+#obs: un desvio chico significa que los datos son parecidos entre si
+#un desvio grande significa que varian mucho

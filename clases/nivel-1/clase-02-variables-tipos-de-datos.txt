@@ -1,0 +1,29 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#una variable guarda un dato para poder usarlo despues
+edad = 25
+altura = 1.70
+nombre_curso = "Python"
+
+#cada dato tiene un tipo
+type(edad)
+<class 'int'>
+
+type(altura)
+<class 'float'>
+
+type(nombre_curso)
+<class 'str'>
+
+#obs: int son numeros enteros, float son numeros con coma, str es texto
+
+#el input siempre carga como texto (str), aunque escribamos un numero
+numero = input("ingrese un numero: ")
+type(numero)
+<class 'str'>
+
+#para que sea un numero de verdad, usamos int()
+numero = int(numero)
+type(numero)
+<class 'int'>

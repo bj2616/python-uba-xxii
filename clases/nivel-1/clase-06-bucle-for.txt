@@ -1,0 +1,25 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#el for recorre una lista de valores, uno por uno
+numeros = [10, 20, 30, 40]
+
+for n in numeros:
+    print(n)
+
+10
+20
+30
+40
+
+#tambien podemos usarlo para repetir algo una cantidad fija de veces
+for i in range(5):
+    print("repeticion", i)
+
+repeticion 0
+repeticion 1
+repeticion 2
+repeticion 3
+repeticion 4
+
+#obs: range(5) genera los numeros del 0 al 4

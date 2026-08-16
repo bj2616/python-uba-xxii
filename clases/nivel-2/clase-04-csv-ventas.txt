@@ -1,0 +1,24 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#mismo ejercicio, pero ahora con datos de ventas
+#ventas.csv tiene una columna con el monto vendido cada dia
+
+import csv
+
+archivo = open("ventas.csv")
+lector = csv.reader(archivo)
+next(lector)
+
+ventas = []
+for fila in lector:
+    ventas.append(float(fila[0]))
+
+archivo.close()
+
+promedio = sum(ventas) / len(ventas)
+print("venta promedio:", promedio)
+
+#tambien podemos ver la venta mas alta y la mas baja
+print("venta maxima:", max(ventas))
+print("venta minima:", min(ventas))

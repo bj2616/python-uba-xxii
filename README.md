@@ -12,34 +12,25 @@ Por eso, **este repositorio no publica datos personales ni información sensible
 
 ```
 python-uba-xxii/
-├── notebooks/
-│ ├── nivel-1/ → las 16 notebooks del curso introductorio (una por clase)
-│ └── nivel-2/ → notebooks del curso avanzado (a completar)
+├── clases/
+│ ├── nivel-1/ → 16 documentos de texto (uno por clase), con el código y comentarios tal como se trabajan en clase
+│ └── nivel-2/ → 16 documentos de texto: análisis de datos con archivos CSV, estadística básica y gráficos con matplotlib
 ├── soluciones/ → resoluciones de los ejercicios
-└── material-adicional/ → guías de referencia rápida, apuntes y la plantilla de asistencia
+├── material-adicional/ → guías de referencia rápida, apuntes y la plantilla de asistencia
+└── seguimiento-semanal/ → bitácora real de las clases dictadas, separada por nivel
 ```
 
-Cada notebook de `notebooks/` sigue la misma estructura:
-1. Encabezado con clase, fecha, objetivo y contenidos.
-2. Un bloque de código con `input()` para el "código de alumno" (parte del sistema de asistencia del curso).
-3. Desarrollo de la clase.
-4. Espacio para el resumen de la clase.
-
-## Progresión del curso
-
-El curso avanza de forma gradual: variables → condicionales → bucles → listas y diccionarios → funciones → buenas prácticas → proyecto final. El detalle completo de las 16 clases está en el programa del curso (ver `material-adicional/`).
+Cada archivo de `clases/nivel-1/` es una transcripción de lo que se trabaja en clase: código y comentarios 
+en el orden en que se van escribiendo, sin encabezado (esa información ya está en la planilla de asistencia impresa).
 
 ## Tecnologías
 
 - Python 3
-- Jupyter Notebook
 
 ## Cómo usarlo
 
-```bash
-pip install notebook
-jupyter notebook notebooks/
-```
+Los archivos de `clases/` son documentos de texto plano — se pueden leer directamente, o copiar y pegar el código en 
+cualquier intérprete de Python (IDLE, terminal, etc.) para probarlo.
 
 ## Licencia
 

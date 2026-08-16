@@ -1,0 +1,15 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#ejercicio: calcular los puntos totales segun las horas trabajadas cada semana
+
+horas_por_semana = [4, 6, 5, 8]  # ejemplo de 4 semanas
+puntos_por_hora = 2
+total_puntos = 0
+
+for horas in horas_por_semana:
+    puntos = horas * puntos_por_hora
+    total_puntos = total_puntos + puntos
+    print("esta semana:", puntos, "puntos")
+
+print("total acumulado:", total_puntos, "puntos")

@@ -1,0 +1,2 @@
+#clase libre num 3
+nombre = input("ingrese su nombre: ")

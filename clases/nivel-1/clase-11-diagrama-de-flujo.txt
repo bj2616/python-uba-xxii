@@ -1,0 +1,14 @@
+#Vamos a empezar con la clase de hoy INGRESE FECHA
+nombre = input("ingrese su nombre: ")
+
+#hoy no vamos a escribir codigo todavia
+#vamos a planificar en papel el juego final: PENALES
+
+#pensamos juntos los pasos del juego:
+#1) la computadora elige al azar si el arquero ataja izquierda, centro o derecha
+#2) el jugador elige donde patear: izquierda, centro o derecha
+#3) si el jugador elige un lado distinto al arquero, es GOL
+#4) si el jugador elige el mismo lado, es ATAJADA
+#5) se repite varias veces y se cuenta cuantos goles hizo
+
+#con esto armamos el diagrama de flujo en el pizarron/papel antes de programarlo
