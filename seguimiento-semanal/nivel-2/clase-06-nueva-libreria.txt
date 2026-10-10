@@ -1,0 +1,31 @@
+#	"INTRODUCCION A LA PROGRAMACION"
+#	    Juan Ignacio Balladares
+#		  FCEyN UBA
+###################################################
+#14/09/26
+nombre=unput
+nombre=input("ingrese su nombre")
+ingrese su nombre*texto eliminado*
+#hoy vamos a usar dos librerias, una ya conocida y una nueva
+import random
+#la siguiente libreria me va a ayudar a realizar analisis estadisticos
+import statistics as st
+lista = [0]*31
+for i in range(0,31)
+	t=randomrandint(22,40)
+	lista[i]=t
+#voy a calcular el promedio y el desvio de una estacion meteorologica, segun la informacion del profesor
+#puede ser que me haya tocado buenos aures,misiones,jujuy,ushuaia,mendoza,rio negro o cordoba.
+#un dato muy importante es el promedio de temperatura, yo tengo una lista con las temperaturas del mes de septiembre
+#paso a calcular el promedio
+promedio=st.mean(lista)
+promedio
+32.25806451612903
+#otra informacion importante es el desvio
+desvio=st.stdev(lista)
+desvio
+5.79636519401302
+print("la conclusion es que trabaje en jujut, que tiene un promedio de ",promedio,"y un desvio de ", desvio)
+la conclusion es que trabaje en jujuy, que tiene un promedio de 31.258064651612903 y un desvio de 5.79636519401302
+
+alumno:___________________					profesor:___________________

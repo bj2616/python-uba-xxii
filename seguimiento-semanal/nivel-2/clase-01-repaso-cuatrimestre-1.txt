@@ -1,6 +1,8 @@
-# Clase N° 1 — Repaso del cuatrimestre 1
-
-**Fecha:** 10/08/2026
+#	"INTRODUCCION A LA PROGRAMACION"
+#	    Juan Ignacio Balladares
+#		  FCEyN UBA
+###################################################
+#hoy es 10/08/2026
 
 ## Resumen de la clase
 Primera clase del segundo cuatrimestre. Repaso de la diferencia entre `input()` como texto y como número, y cómo convertirlo con `int()`.
@@ -34,3 +36,5 @@ a + c
 
 ## Observaciones
 Antes de llegar al código de arriba, surgieron dos errores comunes al escribir a mano: un typo (`imput` en vez de `input`) y un error de sintaxis por un carácter de más. Sirvieron como ejemplo real de cómo leer un mensaje de error en la consola.
+
+alumno:___________________					profesor:___________________

@@ -1,0 +1,43 @@
+#	"INTRODUCCION A LA PROGRAMACION"
+#	    Juan Ignacio Balladares
+#		  FCEyN UBA
+###################################################
+#hoy es 2 de septiembre 2026
+nombre= input("Pablo")
+Pablo
+nombre= input("ingrese su nombre")
+ingrese su nombre Pablo
+import random
+#hoy vamos a hacer un album de figuritas,primera clase
+album = [0,0,0,0,0,0]
+#voy a vomprar una figurita
+figu=random.randint(0,5)
+figu
+0
+album[0] = 1
+#compre uina fiogurita y la pegue en el album, voy a ver como quedo ahora
+album
+[1,0,0,0,0,0]
+#vamos a comprar 3 figuritas mas
+ramdon.randint(0,5)
+Traceback(most recent call last):
+File"<pysehell#16>", in <module>
+ramdon.randint(0,5)
+NameError: name "ramdon" is not defined. Did you mean : "random"?
+random.randint(0,5)
+4
+ulbum[4]=1
+Traceback(most recent call last):
+File"<pysehell#19>", in <module>
+album[4] = 1
+random.randint(0,5)
+3
+album[3]=1
+album
+[1,0,0,1,1,0]
+random.randint(0,5)
+4
+print("hoy el alumno", nombre, "diseño un album de figuritas, compro 4 paquetes y obtuvo", album)
+hoy el alumno pablo diseño un album de figuritas, compro 4 paquetes y obtuvo [1,0,0,1,1,0]
+
+alumno:___________________					profesor:___________________

@@ -1,0 +1,54 @@
+#	"INTRODUCCION A LA PROGRAMACION"
+#	    Juan Ignacio Balladares
+#		  FCEyN UBA
+###################################################
+#clase de hoy: analisis de datos
+#21/09/2026
+nombre= input("ingrese su nombre")
+ingrese su nombre ariel
+import ramdon
+import random
+#se presentan 30 datos de lluvia para el mes de septiembre, me comparon que el que toma
+#los datos es bastante distraido
+#antes de analizar los datos voy a revisarlos
+lista=[0],*30
+lista=[0]*30
+fort i in range(0,30):
+SintaxError: invalid syntax
+for i in range(0,30)
+	a=random.randint(-2,60)
+	lista[i] = a
+lista
+[3,30,49,45,29,27,54,57,23,12,26,50,27,48,33,30,20,-1,6,32,2,49,60,5,55,10,51,52,3,25]
+for i in range(0,30):
+	if[lista]<0:
+SintaxError: unindent does not match any ourer indentation level
+dor i in range(0,30):
+	if lista[i]<0:
+		print("hoy un error")
+	else:
+		print("esta ok")
+
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+esta ok
+hay un error
+esta ok
+esta ok
+
+alumno:___________________					profesor:___________________

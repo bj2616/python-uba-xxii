@@ -1,0 +1,45 @@
+#	"INTRODUCCION A LA PROGRAMACION"
+#	    Juan Ignacio Balladares
+#		  FCEyN UBA
+###################################################
+#hoy es 26/08
+nombre=guida
+SintaxError: invalidad syntax
+#para solucionar el problema vamos a usar la siguiente funcion input
+nombre= input("ingrese su nombre")
+ingrese su nombre guido
+#vamos aver variables y listas
+a=10
+b=12
+b="12=
+c=15
+a+c
+25
+c-a
+5
+a-c
+-5
+a+b
+Traceback(most recent calllast
+File!<pyself#14>", line1, in <mopdule>
+a+b
+typeError: unsupported operand type(s) fot +: "int and"str
+#cuando ingreso una variable con comillas le estoy diciendo que es texto
+#no puedo suymar un nnumero con texto, voy a usar la funcion int
+a+int(b)
+22
+a*c
+150
+a/int(B)
+Traceback(most recent calllast
+File!<pyself#14>", line1, in <mopdule>
+NameError: name"B" is not defined. Did you mean "b"?
+a/int(b)
+0.833333333333334
+#vamos aver la funcion print
+modulo=input("ingrese su modulo")
+ingrese su modulo 3
+print("soy ", nmombre, "vengo del modulo", modulo, "soy alumno deintro ala progbramacion del cue en el segundo cuatrimestre del 2026")
+soy guido vengo del modulo3 soy alumno deintro ala progbramacion del cue en el segundo cuatrimestre del 2026
+
+alumno:___________________					profesor:___________________

@@ -1,0 +1,25 @@
+#	"INTRODUCCION A LA PROGRAMACION"
+#	    Juan Ignacio Balladares
+#		  FCEyN UBA
+###################################################
+#09/09/26
+nombre= input("ingrese si nombre")
+ingrese su nombre Cristian
+import random
+#ciclos
+album [0,0,0,0,0]
+import random
+#voy a comenzar el ciclo
+pq = 0
+while sum(album)<5:
+	figu=random.randint(0,4
+	album[figu]=1
+	pq=pq+1
+
+print("para llenar el album compre", pq, "figuritas")
+
+para llenar el album compre 14 diguritas
+
+print("soy el alumnocristian sieño un album de ciclo, compro esta cantidad de paquetes y obtuve exito") para llenar el album compre14figuritas
+
+alumno:___________________					profesor:___________________

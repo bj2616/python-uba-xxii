@@ -1,0 +1,30 @@
+#	"INTRODUCCION A LA PROGRAMACION"
+#	    Juan Ignacio Balladares
+#		  FCEyN UBA
+###################################################
+#hoy es 24/08/26
+#voy a ingresar mi nombre
+input("ingrese uu nombre:")
+ingrese uu nombre: Cesár
+"Cesàr"
+#trabajamos conl ista
+AZ=(10,20,30)
+suma=sum(AZ)
+suma
+60
+#promedio calor es el valor medio de un conjunto de datos
+altura=(1.78,1.58,1.68,1.65,1.70,1.68)
+#para calcularlo sumo todos los valores y divido por la cantidad de datos total
+#vamos a usar la función sum y la función len
+suma=sum(altura)
+datos=len(altura)
+#reviso si esta todo ok
+datos
+6
+suma
+10.07
+promedio=suma/datos
+print("el promadio de los laumnos del cue es",promedio,"m")
+el promedio de los alumnos del cue es 1.67833333333335 m
+
+alumno:___________________					profesor:___________________
