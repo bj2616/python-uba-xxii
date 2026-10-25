@@ -1,0 +1,43 @@
+#	"INTRODUCCION A LA PROGRAMACION"
+#	    Juan Ignacio Balladares
+#		  FCEyN UBA
+###################################################
+Ejericios para hoy
+1 Cargar las siguientes listas
+lista_a=[12,13,14,15]
+lista_b=[212,560,324,789,541,654]
+2 Comencemos con la lista_b. Para esta lista calacular el promedio. Luego imprimir
+por pantalla in mensaje que diga"El promedio de la lista es "valor promedio"
+y su valor maximo es "valor maximo""
+3 para la lista_A generar un ciclo que recorra toda la lista y a cada valor
+le sume 1,e s decir, tiene que obtener una lista que sea [13,14,15,16]
+
+ejercicio extra: Se desea crear una funcino que mçpermita el ingreso de dos
+parametros numericos y realice la multiplicacion de ellos, al final, que me
+devuelva el resultado de la multiplicacion
+
+AYUDA: pongan como nombre "multiplicar" y luego prueben dos valores, ej
+multiplicar(2,3) y deberia dar 6
+
+#hoy es 14/10
+nombre= input("ingrese su nombre")
+ingrese su nombre PABLO
+a=[12,13,14,15]
+b=[212,560,324,789,541,654]
+prom = b
+b
+[212,560,324,789,541,654]
+prom = sum(b)/6
+prom
+513.333333333334
+prom = round(prom,2)
+prom
+513.33
+print("el promedio de la lista es", prom, "y su valor maximo es", b[3])
+el promedio de la lista es 513.33 y su valor maximo es 789
+#2
+for i in range(len(a)):
+	a[i] = a[i]+1
+
+a
+[13,14,15,16]

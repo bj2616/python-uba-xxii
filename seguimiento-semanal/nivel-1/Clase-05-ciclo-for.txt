@@ -1,0 +1,51 @@
+#	"INTRODUCCION A LA PROGRAMACION"
+#	    Juan Ignacio Balladares
+#		  FCEyN UBA
+###################################################
+#hoy es 23/9/26
+nombre=input("ingrese su nombre")
+ingrese su nombre: guido
+#la clase de hoy consiste en crear un promedio con ciclos
+listas =[0]*7
+#defini una lista de 7 valores
+#importo la libreria
+import random
+#hoy vamos aver el ciclo for
+for i in range(0,7):
+	a=input("ingrese una altura:")
+	a=float(a)
+	listas[i] = a
+
+ingrese una altura: 1.78
+ingrese una altura: 1.86
+ingrese una altura: 1.82
+ingrese una altura: 1.75
+ingrese una altura: 1.80
+ingrese una altura: 1.86
+ingrese una altura: 1.70
+lista
+Traceback(most recent call last):
+File"<python-input-9>, line 1, in <module>
+lista
+NameError: name "lista" is not defined. Did you mean "listas"?
+listas
+[1.78, 1.86, 1.82, 1.75, 1.8, 1.8, 1.7]
+prom = sum(listas)/7
+prom
+1.7957142857142858
+prom(round(prom,2)
+prom
+1.8
+for i in range(0,7):
+	altos=lista[i]>prom
+	print(altos)
+
+False
+True
+True
+False
+False
+True
+False
+print("hoy vimos que el promedios de los alumnos redondeado es ", prom, "yo soy, "nombre", "i mi altura es", lista[4])
+hoy vimos que el promedios de los alumnos redondeado es 1.8 yo soy ---- i mi altura es 1.8

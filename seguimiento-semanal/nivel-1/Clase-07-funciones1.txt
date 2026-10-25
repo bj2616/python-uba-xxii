@@ -1,0 +1,34 @@
+#	"INTRODUCCION A LA PROGRAMACION"
+#	    Juan Ignacio Balladares
+#		  FCEyN UBA
+###################################################
+#7 de octubre
+nombre = inmput("ingrese su nombre")
+ingrese su nombre gaston
+import random
+#hoy vamos a ver funciones, es un tema de programacion muy poderoso ya qu eme 
+#permite almacenar varias lineas de codigo en una sola
+#las funciones necesitan que escriba la palabra def al principio y return al final
+#ejemplo1
+def sumar(x,y):
+	z = x+y
+	return z
+
+#cree mi primer funcion, es sencilla pero puede hacer cosas mas complejas
+sumar(2,3)
+5
+z
+Traceback(most recent call last):
+File"<python-input-9>, line 1, in <module>
+NameError: name "z" is not defined
+valor = sumar(2,3)
+valor
+5
+#ejemplo para crear album de figuritas
+def crear_album(x):
+	album = [0]*x
+	return album
+album_50=crear_album(50)
+album_50
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0]
