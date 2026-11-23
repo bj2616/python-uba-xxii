@@ -1,0 +1,51 @@
+Python 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+CLASE DEL 28/10/2026
+A=["PEDRO","JUAN","ROBERTO","CAMILO"]
+B=[1.50,1.60,1.75,1.85]
+A.extend(B)
+A
+['PEDRO', 'JUAN', 'ROBERTO', 'CAMILO', 1.5, 1.6, 1.75, 1.85]
+print("MI COMPAÑERO PEDRO MIDE",B[3],"JUAN MIDE",B[2],"ROBERTO MIDE",B[1],"Y CAMILO MIDE",B[0],"Y SE MANEJAR LISTAS DESDE EL CUE 2026")
+MI COMPAÑERO PEDRO MIDE 1.85 JUAN MIDE 1.75 ROBERTO MIDE 1.6 Y CAMILO MIDE 1.5 Y SE MANEJAR LISTAS DESDE EL CUE 2026
+
+-------------------------------------------
+otro alumno
+--------------------------------------------
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> #28 de octubre
+>>> nombre=input("ingrese su nombre")
+ingrese su nombre roberto
+>>> #si pones lista . append(valor) esto agrega ese valor al final de la lista
+>>> #si ponemos lista.remove(valor) esto elimina el valor de la lista
+>>> #si ponemos lista.count(valor) esto cuenta cuantas veces sale el valor que pedimos
+>>> ## si ponemos lista.sort() esto ordena la lista
+>>> #como accedo al 3? lista_a[2] nos va a dar 3
+>>> #como recorro una lista? for i in range(len(lista_a)): y lurgo debajo lista_a[i]
+>>> a=[1,2,3]
+>>> a.append(6)
+>>> a.append(0)
+>>> a
+[1, 2, 3, 6, 0]
+>>> a.pop()
+0
+>>> a
+[1, 2, 3, 6]
+>>> a.sort()
+>>> a
+[1, 2, 3, 6]
+>>> b=[0,1]
+>>> a.extend(b)
+>>> a
+[1, 2, 3, 6, 0, 1]
+>>> #generar dos listas una con los nombres de los compañeros y otra con las alturas
+>>> #generar una unica lista con todos los valores
+>>> #identificar sus datos personales e imprimir por pantalla "soy[nombre]y mido[altura] y se manejar listas desde el c\ue 2026
+>>> nombres=["amin","roberto","daniel","guido","luciano","parce","andres"]
+>>> alturas=(1.75,1.82,1.70,1.72,1.83,1.68,1.65)
+>>> nombres.extend(alturas)
+>>> nombres
+['amin', 'roberto', 'daniel', 'guido', 'luciano', 'parce', 'andres', 1.75, 1.82, 1.7, 1.72, 1.83, 1.68, 1.65]
+ print("soy",nombres[1],"y mido",nombres[8],"y se manejar listas desde el cue 2026")
+soy roberto y mido 1.82 y se manejar listas desde el cue 2026

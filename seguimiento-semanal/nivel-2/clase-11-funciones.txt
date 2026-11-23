@@ -1,0 +1,22 @@
+>>> #19/10/2026
+>>> nombre = input ("ingerese su nombre")
+ingerese su nombre franco
+>>> 
+>>> #hoy vamos a ver funciones, es un tema muy importante que se relaciona con los ciclos ya que me permite hacer la misma operacion varias veces.
+>>> def sumar (x,y):
+	resultado = x + y
+	return resultado
+
+>>> sumar (1,1)
+2
+>>> sumar (-1,+2)
+1
+>>> lista_cue = [1,2,3,4]
+
+>>> def cambiar (lista,valor):
+	for i in range (len(lista)):
+		lista[i] = lista [i]+valor
+	return lista
+
+>>> cambiar (lista_cue,7)
+[8, 9, 10, 11]

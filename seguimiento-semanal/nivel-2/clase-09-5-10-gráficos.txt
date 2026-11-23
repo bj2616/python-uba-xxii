@@ -1,0 +1,46 @@
+Python 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import turtle
+turtle.home()
+# 9/05/2026
+nombre = ("ingrese su nombre")
+hugo 
+SyntaxError: invalid syntax
+turtle.position()
+(0.00,0.00)
+# hasta ahora lo que hicimos fue importar una nueva libreria llamada tortuga .
+# esta libreria nos ba a ayudar a realizar graficos  que facilitan el analicis de datos
+turtle.circle(80)
+turtle.circule(50,180)
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    turtle.circule(50,180)
+AttributeError: module 'turtle' has no attribute 'circule'. Did you mean: 'circle'?
+turtle.circle(50,180)
+turtle.circle(50,180)
+#pudimos ver que la posicion final ba a ser el comienzo de la siguiente sentencia
+turtle.undo()
+turtle.shape("square")
+#cada ves que quiero limpiar uso lo siguiente
+turtle.clear()
+from turtle import *
+color ("red","yellow")
+while True :
+    forward(200)
+    left(170)
+    if sbs(pos())<1:
+        break
+
+    
+Traceback (most recent call last):
+  File "<pyshell#25>", line 4, in <module>
+    if sbs(pos())<1:
+NameError: name 'sbs' is not defined. Did you mean: 'abs'?
+while True :
+    forward(200)
+    left(170)
+    if abs(pos())<1:
+        break
+
+    
+

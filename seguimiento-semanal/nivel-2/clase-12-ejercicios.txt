@@ -1,0 +1,11 @@
+1) Cargar las siguientes listas: 
+lista_a = [12,13,14,15] 
+lista_b = [212,560,324,789,541,654] 
+2) Comencemos con la lista_b. Para esta lista calcular el promedio. Luego imprimir por pantalla un 
+mensaje que diga “El promedio de la lista es {valor_promedio} y su valor máximo es {valor_max} 
+3) Para la lista_a generar un ciclo que recorra toda la lista y a cada valor le sume 1, es decir, tiene que 
+obtener una lista que sea [13,14,15,16] 
+Ejercicio extra : Se desea crear una función que permita el ingreso de dos parámetros numéricos y realice la 
+multiplicación de ellos, al final, que me devuelva el resultado de la multiplicación.  
+Ayuda: Ponganle un nombre como “multiplicar” y luego prueben con dos valores, ej multiplicar(2,3) y 
+debería dar 6 
