@@ -23,7 +23,7 @@ python-uba-xxii/
 Cada archivo de `clases/nivel-1/` es una transcripción de lo que se trabaja en clase: código y comentarios 
 en el orden en que se van escribiendo, sin encabezado (esa información ya está en la planilla de asistencia impresa).
 
-## Tecnologías
+## Tecnologías adquiridas por los alumnos:
 
 - Python 3
 
